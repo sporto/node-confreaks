@@ -4,9 +4,10 @@
 	"maxerr"        : 100,    // Maximum errors before stopping.
 
 	// Predefined globals whom JSHint will ignore.
-	"jquery"						:false,
-	"browser"						:false,
-	"predef"						:["require", "describe", "it"],
+	"jquery"						: false,
+	"browser"						: false,
+	"exports"						: true,
+	"predef"						: ["require", "describe", "it"],
 
 	// EcmaScript 5.
 	"es5"							: true,   // Allow EcmaScript 5 syntax.
