@@ -1,0 +1,143 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.8.21/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.2.11
+3 info using node@v0.8.21
+4 verbose publish [ '.' ]
+5 verbose read json /Users/Sebastian/Sites/node-confreaks/package.json
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { pathname: '.', path: '.', href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/Sebastian/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/g_/wdn86ckj35x7svngvxz0158r0000gq/T/npm-18492/1363950932660-0.07697651628404856/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/g_/wdn86ckj35x7svngvxz0158r0000gq/T/npm-18492/1363950932660-0.07697651628404856/tmp.tgz
+14 verbose folder .
+15 info prepublish confreaks@0.0.1
+16 silly lockFile 3a52ce78- .
+17 verbose lock . /Users/Sebastian/.npm/3a52ce78-.lock
+18 silly lockFile 9921f30e-2660-0-07697651628404856-tmp-tgz /var/folders/g_/wdn86ckj35x7svngvxz0158r0000gq/T/npm-18492/1363950932660-0.07697651628404856/tmp.tgz
+19 verbose lock /var/folders/g_/wdn86ckj35x7svngvxz0158r0000gq/T/npm-18492/1363950932660-0.07697651628404856/tmp.tgz /Users/Sebastian/.npm/9921f30e-2660-0-07697651628404856-tmp-tgz.lock
+20 silly lockFile 3a52ce78- .
+21 silly lockFile 3a52ce78- .
+22 silly lockFile 9921f30e-2660-0-07697651628404856-tmp-tgz /var/folders/g_/wdn86ckj35x7svngvxz0158r0000gq/T/npm-18492/1363950932660-0.07697651628404856/tmp.tgz
+23 silly lockFile 9921f30e-2660-0-07697651628404856-tmp-tgz /var/folders/g_/wdn86ckj35x7svngvxz0158r0000gq/T/npm-18492/1363950932660-0.07697651628404856/tmp.tgz
+24 verbose tar unpack /var/folders/g_/wdn86ckj35x7svngvxz0158r0000gq/T/npm-18492/1363950932660-0.07697651628404856/tmp.tgz
+25 silly lockFile c5857477-2660-0-07697651628404856-package /var/folders/g_/wdn86ckj35x7svngvxz0158r0000gq/T/npm-18492/1363950932660-0.07697651628404856/package
+26 verbose lock /var/folders/g_/wdn86ckj35x7svngvxz0158r0000gq/T/npm-18492/1363950932660-0.07697651628404856/package /Users/Sebastian/.npm/c5857477-2660-0-07697651628404856-package.lock
+27 silly lockFile 9921f30e-2660-0-07697651628404856-tmp-tgz /var/folders/g_/wdn86ckj35x7svngvxz0158r0000gq/T/npm-18492/1363950932660-0.07697651628404856/tmp.tgz
+28 verbose lock /var/folders/g_/wdn86ckj35x7svngvxz0158r0000gq/T/npm-18492/1363950932660-0.07697651628404856/tmp.tgz /Users/Sebastian/.npm/9921f30e-2660-0-07697651628404856-tmp-tgz.lock
+29 silly gunzTarPerm modes [ '755', '644' ]
+30 silly gunzTarPerm extractEntry package.json
+31 silly gunzTarPerm extractEntry .npmignore
+32 silly gunzTarPerm extractEntry Gruntfile.js
+33 silly gunzTarPerm extractEntry .jshintrc
+34 silly gunzTarPerm extractEntry lib/loader.js
+35 silly gunzTarPerm extractEntry lib/main.js
+36 silly gunzTarPerm extractEntry lib/video.js
+37 silly gunzTarPerm extractEntry readme.md
+38 silly gunzTarPerm extractEntry test/main_test.js
+39 silly gunzTarPerm extractEntry test/video_test.js
+40 silly gunzTarPerm extractEntry test/video.html
+41 verbose read json /var/folders/g_/wdn86ckj35x7svngvxz0158r0000gq/T/npm-18492/1363950932660-0.07697651628404856/package/package.json
+42 silly lockFile c5857477-2660-0-07697651628404856-package /var/folders/g_/wdn86ckj35x7svngvxz0158r0000gq/T/npm-18492/1363950932660-0.07697651628404856/package
+43 silly lockFile c5857477-2660-0-07697651628404856-package /var/folders/g_/wdn86ckj35x7svngvxz0158r0000gq/T/npm-18492/1363950932660-0.07697651628404856/package
+44 silly lockFile 9921f30e-2660-0-07697651628404856-tmp-tgz /var/folders/g_/wdn86ckj35x7svngvxz0158r0000gq/T/npm-18492/1363950932660-0.07697651628404856/tmp.tgz
+45 silly lockFile 9921f30e-2660-0-07697651628404856-tmp-tgz /var/folders/g_/wdn86ckj35x7svngvxz0158r0000gq/T/npm-18492/1363950932660-0.07697651628404856/tmp.tgz
+46 verbose from cache /var/folders/g_/wdn86ckj35x7svngvxz0158r0000gq/T/npm-18492/1363950932660-0.07697651628404856/package/package.json
+47 verbose tar pack [ '/Users/Sebastian/.npm/confreaks/0.0.1/package.tgz',
+47 verbose tar pack   '/var/folders/g_/wdn86ckj35x7svngvxz0158r0000gq/T/npm-18492/1363950932660-0.07697651628404856/package' ]
+48 verbose tarball /Users/Sebastian/.npm/confreaks/0.0.1/package.tgz
+49 verbose folder /var/folders/g_/wdn86ckj35x7svngvxz0158r0000gq/T/npm-18492/1363950932660-0.07697651628404856/package
+50 silly lockFile c5857477-2660-0-07697651628404856-package /var/folders/g_/wdn86ckj35x7svngvxz0158r0000gq/T/npm-18492/1363950932660-0.07697651628404856/package
+51 verbose lock /var/folders/g_/wdn86ckj35x7svngvxz0158r0000gq/T/npm-18492/1363950932660-0.07697651628404856/package /Users/Sebastian/.npm/c5857477-2660-0-07697651628404856-package.lock
+52 silly lockFile 6fb31706--npm-confreaks-0-0-1-package-tgz /Users/Sebastian/.npm/confreaks/0.0.1/package.tgz
+53 verbose lock /Users/Sebastian/.npm/confreaks/0.0.1/package.tgz /Users/Sebastian/.npm/6fb31706--npm-confreaks-0-0-1-package-tgz.lock
+54 silly lockFile c5857477-2660-0-07697651628404856-package /var/folders/g_/wdn86ckj35x7svngvxz0158r0000gq/T/npm-18492/1363950932660-0.07697651628404856/package
+55 silly lockFile c5857477-2660-0-07697651628404856-package /var/folders/g_/wdn86ckj35x7svngvxz0158r0000gq/T/npm-18492/1363950932660-0.07697651628404856/package
+56 silly lockFile 6fb31706--npm-confreaks-0-0-1-package-tgz /Users/Sebastian/.npm/confreaks/0.0.1/package.tgz
+57 silly lockFile 6fb31706--npm-confreaks-0-0-1-package-tgz /Users/Sebastian/.npm/confreaks/0.0.1/package.tgz
+58 silly lockFile ffda8841-tian-npm-confreaks-0-0-1-package /Users/Sebastian/.npm/confreaks/0.0.1/package
+59 verbose lock /Users/Sebastian/.npm/confreaks/0.0.1/package /Users/Sebastian/.npm/ffda8841-tian-npm-confreaks-0-0-1-package.lock
+60 silly lockFile ffda8841-tian-npm-confreaks-0-0-1-package /Users/Sebastian/.npm/confreaks/0.0.1/package
+61 silly lockFile ffda8841-tian-npm-confreaks-0-0-1-package /Users/Sebastian/.npm/confreaks/0.0.1/package
+62 verbose tar unpack /Users/Sebastian/.npm/confreaks/0.0.1/package.tgz
+63 silly lockFile ffda8841-tian-npm-confreaks-0-0-1-package /Users/Sebastian/.npm/confreaks/0.0.1/package
+64 verbose lock /Users/Sebastian/.npm/confreaks/0.0.1/package /Users/Sebastian/.npm/ffda8841-tian-npm-confreaks-0-0-1-package.lock
+65 silly lockFile 6fb31706--npm-confreaks-0-0-1-package-tgz /Users/Sebastian/.npm/confreaks/0.0.1/package.tgz
+66 verbose lock /Users/Sebastian/.npm/confreaks/0.0.1/package.tgz /Users/Sebastian/.npm/6fb31706--npm-confreaks-0-0-1-package-tgz.lock
+67 silly gunzTarPerm modes [ '755', '644' ]
+68 silly gunzTarPerm extractEntry package.json
+69 silly gunzTarPerm extractEntry .npmignore
+70 silly gunzTarPerm extractEntry Gruntfile.js
+71 silly gunzTarPerm extractEntry .jshintrc
+72 silly gunzTarPerm extractEntry lib/loader.js
+73 silly gunzTarPerm extractEntry lib/main.js
+74 silly gunzTarPerm extractEntry lib/video.js
+75 silly gunzTarPerm extractEntry readme.md
+76 silly gunzTarPerm extractEntry test/main_test.js
+77 silly gunzTarPerm extractEntry test/video_test.js
+78 silly gunzTarPerm extractEntry test/video.html
+79 verbose read json /Users/Sebastian/.npm/confreaks/0.0.1/package/package.json
+80 silly lockFile ffda8841-tian-npm-confreaks-0-0-1-package /Users/Sebastian/.npm/confreaks/0.0.1/package
+81 silly lockFile ffda8841-tian-npm-confreaks-0-0-1-package /Users/Sebastian/.npm/confreaks/0.0.1/package
+82 silly lockFile 6fb31706--npm-confreaks-0-0-1-package-tgz /Users/Sebastian/.npm/confreaks/0.0.1/package.tgz
+83 silly lockFile 6fb31706--npm-confreaks-0-0-1-package-tgz /Users/Sebastian/.npm/confreaks/0.0.1/package.tgz
+84 silly shasum updated bytes 11150
+85 info shasum 95cb6924c3b65c23627bd6b718748a1030e8fdde
+85 info shasum /Users/Sebastian/.npm/confreaks/0.0.1/package.tgz
+86 verbose from cache /Users/Sebastian/.npm/confreaks/0.0.1/package/package.json
+87 verbose chmod /Users/Sebastian/.npm/confreaks/0.0.1/package.tgz 644
+88 verbose chown /Users/Sebastian/.npm/confreaks/0.0.1/package.tgz [ 503, 20 ]
+89 silly lockFile 3a52ce78- .
+90 silly publish { name: 'confreaks',
+90 silly publish   version: '0.0.1',
+90 silly publish   description: 'Scraper for Confreaks',
+90 silly publish   main: 'lib/main.js',
+90 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+90 silly publish   repository: '',
+90 silly publish   keywords: [ 'video', 'confreaks', 'scrape', 'information' ],
+90 silly publish   author: { name: 'Sebastian Porto' },
+90 silly publish   license: 'MIT',
+90 silly publish   dependencies: { cheerio: '~0.10.8', request: '~2.16.6' },
+90 silly publish   devDependencies:
+90 silly publish    { chai: '*',
+90 silly publish      mocha: '~1.8.2',
+90 silly publish      'grunt-simple-mocha': '~0.3.2',
+90 silly publish      grunt: '~0.4.1',
+90 silly publish      'grunt-contrib-jshint': '~0.3.0' },
+90 silly publish   readme: 'Confreaks scraper for Node.js\n=============================\n\nInstallation\n------------\n\n\tnpm install confreaks\n\nUsage\n-----\n\n\tvar confreaks = require(\'confreaks\');\n\n\tconfreaks.scrape(\'http://www.confreaks.com/videos/2234-html5tx2013-unfolding-the-box-model\', function(err, data){\n\t\tconsole.log(data); // Object containing data\n\t});\n\nData will be returned in the following format:\n\n\t{\n\t\ttitle: "Title",\n\t\tpresenters: "Sam Sample",\n\t\tdescription: "Lorem ipsum ..."\n\t}\n\nLicense\n-------\nCopyright (c) 2013 Sebastian Porto\nLicensed under the MIT license.',
+90 silly publish   readmeFilename: 'readme.md',
+90 silly publish   _id: 'confreaks@0.0.1',
+90 silly publish   dist: { shasum: '95cb6924c3b65c23627bd6b718748a1030e8fdde' },
+90 silly publish   _from: '.' }
+91 verbose url raw confreaks
+92 verbose url resolving [ 'https://registry.npmjs.org/', './confreaks' ]
+93 verbose url resolved https://registry.npmjs.org/confreaks
+94 info trying registry request attempt 1 at 22:15:43
+95 http PUT https://registry.npmjs.org/confreaks
+96 http 409 https://registry.npmjs.org/confreaks
+97 verbose url raw confreaks
+98 verbose url resolving [ 'https://registry.npmjs.org/', './confreaks' ]
+99 verbose url resolved https://registry.npmjs.org/confreaks
+100 info trying registry request attempt 1 at 22:15:47
+101 http GET https://registry.npmjs.org/confreaks
+102 http 200 https://registry.npmjs.org/confreaks
+103 error publish fail Cannot publish over existing version.
+103 error publish fail Update the 'version' field in package.json and try again.
+103 error publish fail
+103 error publish fail If the previous version was published in error, see:
+103 error publish fail     npm help unpublish
+103 error publish fail
+103 error publish fail To automatically increment version numbers, see:
+103 error publish fail     npm help version
+104 error System Darwin 12.2.0
+105 error command "/usr/local/Cellar/node/0.8.21/bin/node" "/usr/local/bin/npm" "publish"
+106 error cwd /Users/Sebastian/Sites/node-confreaks
+107 error node -v v0.8.21
+108 error npm -v 1.2.11
+109 error code EPUBLISHCONFLICT
+110 verbose exit [ 1, true ]
