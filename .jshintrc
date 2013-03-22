@@ -11,7 +11,7 @@
 
 	// EcmaScript 5.
 	"es5"							: true,   // Allow EcmaScript 5 syntax.
-	"strict"					: true,  // Require `use strict` pragma in every file.
+	"strict"					: false,  // Require `use strict` pragma in every file.
 
 	// The Good Parts.
 	"asi"           : false,  // Tolerate Automatic Semicolon Insertion (no semicolons).

@@ -1,5 +1,3 @@
-'use strict';
-
 var main = require('../lib/main');
 var assert = require('chai').assert;
 
