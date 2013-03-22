@@ -1,0 +1,999 @@
+
+<!DOCTYPE html>
+<html>
+  <head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Confreaks, LLC" />
+    <meta name="keywords" content="seminar, workshop, conference, video,
+                                   conferencing, recording, record, network,
+                                   powerpoint, presentation, keynote, speech,
+                                   talk, lecture"/>
+    <meta name="description" content="Expert recording and networking
+                                      services for conferences, seminars
+                                      and workshops." />
+    <meta name="robots" content="all" />
+    <link type="text/plain" rel="author" href="http://confreaks.com/humans.txt" />
+    <link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
+    <script src="http://vjs.zencdn.net/c/video.js"></script>
+    <title>
+      Ruby vs. the world - Matt Aimonetti - Ruby Conference 2012
+
+    </title>
+    <link href="http://cdn.confreaks.com/stylesheets/main.css?1363745627" media="screen" rel="stylesheet" type="text/css" />
+    <script src="http://cdn.confreaks.com/javascripts/prototype.js?1363745627" type="text/javascript"></script>
+<script src="http://cdn.confreaks.com/javascripts/effects.js?1363745627" type="text/javascript"></script>
+<script src="http://cdn.confreaks.com/javascripts/dragdrop.js?1363745627" type="text/javascript"></script>
+<script src="http://cdn.confreaks.com/javascripts/controls.js?1363745627" type="text/javascript"></script>
+<script src="http://cdn.confreaks.com/javascripts/application.js?1363745627" type="text/javascript"></script>
+    <script src="http://cdn.confreaks.com/javascripts/calendar_date_select/calendar_date_select.js?1363745627" type="text/javascript"></script>
+<link href="http://cdn.confreaks.com/stylesheets/calendar_date_select/default.css?1363745627" media="screen" rel="stylesheet" type="text/css" />
+
+    
+    <script type="text/javascript">
+      window.onload=function(){
+      var key = "abeb6636-a53b-49c2-a37c-d596084495e7";
+      var host = "http://logs.loggly.com";
+      castor = new loggly({ url: host+'/inputs/'+key+'?rt=1', level: 'log'});
+      castor.log("url="+window.location.href + " browser=" + castor.user_agent + " height=" + castor.browser_size.height);
+      }
+    </script>
+    <script type="text/javascript" src="http://d3eyf2cx8mbems.cloudfront.net/js/loggly-0.1.0.js"></script>
+    <script type="text/javascript">
+      /* <![CDATA[ */
+    (function() {
+        var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+        t.parentNode.insertBefore(s, t);
+    })();
+/* ]]> */
+    </script>
+  </head>
+  <body>
+    <div id='header'>
+<div id='logo'>
+<h1>
+<a href="/" class="noborder">Confreaks</a>
+</h1>
+</div>
+<div id='tagline'>
+<em>
+Expert recording services for conferences,
+seminars, and workshops.
+</em>
+</div>
+<div id='navigation'>
+<ul>
+<li class='first'><a href="/">Home</a></li>
+<li><a href="/events">Events</a></li>
+<li><a href="/presenters">Presenters</a></li>
+<li><a href="/blog">Blog</a></li>
+</ul>
+<ul class='personal'>
+<li class='first'>
+<a href="/videos">Search</a>
+</li>
+<li>
+<a href="/session/new">Login</a>
+</li>
+<li>
+<a href="/users/new">Sign Up</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+
+    <div id="content">
+      <div id="primary-content">
+        
+        <div class='center'>
+<h3>
+<a href="/events/rubyconf2012">Ruby Conference 2012</a>
+</h3>
+<div class='video-frame'>
+<iframe width="720" height="433" src="http://www.youtube.com/embed/V_k3q37Tieg" frameborder="0" allowfullscreen></iframe>
+
+</div>
+<div class='video-twitter'>
+<!-- Place this tag where you want the +1 button to render. -->
+<div class="g-plusone"></div>
+
+<!-- Place this tag after the last +1 button tag. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="vertical" data-text="Ruby vs. the world by @merbist" data-via="confreaks">Tweet</a>
+<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+</div>
+<div class='video-title'>
+Ruby vs. the world
+</div>
+<div class='video-presenters'>
+<a href="/presenters/181-matt-aimonetti">Matt Aimonetti</a>
+</div>
+<div class='video-license'>
+<div xmlns:cc='http://creativecommons.org/ns#'>
+This presentation, by
+<a href="http://twitter.com/@merbist">Matt Aimonetti</a>
+, is licensed under a
+<a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" target="_blank">Creative Commons Attribution ShareAlike 3.0</a>
+<br />
+<a href='http://creativecommons.org/licenses/by-sa/3.0/' rel='license'>
+<img alt="80x15" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" />
+</a>
+</div>
+</div>
+
+<div class='video-note'>
+
+</div>
+<div class='video-abstract'>
+<p>Ruby is an awesome programming language, it's so pleasing you probably haven't seriously looked at other languages since you switched. The programming world is evolving fast, new languages are created daily, new trends are emerging. Let's take a few minutes to look at a few languages from a Ruby developer perspective.</p>
+
+</div>
+</div>
+<div class='video-details'>
+<div class='assets'>
+<div class='asset-box small'>
+<a href="http://cdn.confreaks.com/system/assets/datas/5331/original/d2-t1-01-matt-aimonetti.mp4?1352630954">1920x1080 -  - application/x-mp4 - 1.7 GB - 00:57:07</a>
+</div>
+<div class='asset-box small'>
+<a href="http://cdn.confreaks.com/system/assets/datas/5332/original/1288-rubyconf2012-ruby-vs-the-world-large.mp4?1352635464">1280x720 -  - application/x-mp4 - 293.1 MB - 00:57:07</a>
+</div>
+<div class='asset-box small'>
+<a href="http://cdn.confreaks.com/system/assets/datas/5333/original/1288-rubyconf2012-ruby-vs-the-world-small.mp4?1352634745">640x360 -  - application/x-mp4 - 113.4 MB - 00:57:07</a>
+</div>
+<div class='asset-box small'>
+<a href="http://cdn.confreaks.com/system/assets/datas/5334/original/1288-rubyconf2012-ruby-vs-the-world.mp3?1352631197">audio - application/x-mp3 - 24.5 MB - 00:57:07</a>
+</div>
+
+</div>
+<div class='video-links'></div>
+<div class='video-information'>
+<div class='video-rating'>
+Rated:
+<strong>
+Everyone
+</strong>
+</div>
+<div class='video-rating'>
+Views:
+<strong>
+3,358
+</strong>
+</div>
+<div class='video-posted-on'>
+Posted on:
+<strong>
+Nov 11, 2012
+</strong>
+</div>
+</div>
+</div>
+<div class='clear'></div>
+
+      </div>
+      <div id="secondary-content">
+        <h3 class='center'>
+Conference Videos
+</h3>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1268-rubyconf2012-keynote-reinventing-wheels-of-the-future">Keynote: Reinventing Wheels of the Future</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1268-rubyconf2012-keynote-reinventing-wheels-of-the-future" class="noborder"><img alt="1268-rubyconf2012-keynote-reinventing-wheels-of-the-future-thumb_0000" src="http://cdn.confreaks.com/system/videos/images/1268/thumb/1268-rubyconf2012-keynote-reinventing-wheels-of-the-future-thumb_0000.png?1352307055" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1268-rubyconf2012-keynote-reinventing-wheels-of-the-future">Yukihiro 'Matz' Matsumoto</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1269-rubyconf2012-allow-me-to-reintroduce-myself-my-name-is-maglev"> Allow me to reintroduce myself. My name is MagLev.</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1269-rubyconf2012-allow-me-to-reintroduce-myself-my-name-is-maglev" class="noborder"><img alt="54_am" src="http://cdn.confreaks.com/system/videos/images/1269/thumb/54_AM.png?1353092063" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1269-rubyconf2012-allow-me-to-reintroduce-myself-my-name-is-maglev">Jesse Cooke</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1270-rubyconf2012-abstracting-features-into-custom-reverse-proxies-or-making-better-lemonade-from-chaos">Abstracting Features Into Custom Reverse Proxies (Or: Making Better Lemonade From Chaos)</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1270-rubyconf2012-abstracting-features-into-custom-reverse-proxies-or-making-better-lemonade-from-chaos" class="noborder"><img alt="1270-rubyconf2012-abstracting-features-into-custom-reverse-proxies-or-making-better-lemonade-from-chaos-thumb_0001" src="http://cdn.confreaks.com/system/videos/images/1270/thumb/1270-rubyconf2012-abstracting-features-into-custom-reverse-proxies-or-making-better-lemonade-from-chaos-thumb_0001.png?1353892068" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1270-rubyconf2012-abstracting-features-into-custom-reverse-proxies-or-making-better-lemonade-from-chaos">Nick Muerdter</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1271-rubyconf2012-ruby-http-clients-comparison">Ruby HTTP clients comparison</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1271-rubyconf2012-ruby-http-clients-comparison" class="noborder"><img alt="1271-rubyconf2012-ruby-http-clients-comparison-thumb_0003" src="http://cdn.confreaks.com/system/videos/images/1271/thumb/1271-rubyconf2012-ruby-http-clients-comparison-thumb_0003.png?1354553897" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1271-rubyconf2012-ruby-http-clients-comparison">Hiroshi Nakamura</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1272-rubyconf2012-implementation-details-of-ruby-2-0-vm">Implementation Details of Ruby 2.0 VM</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1272-rubyconf2012-implementation-details-of-ruby-2-0-vm" class="noborder"><img alt="1272-rubyconf2012-implementation-details-of-ruby-2-0-vm-thumb_0002" src="http://cdn.confreaks.com/system/videos/images/1272/thumb/1272-rubyconf2012-implementation-details-of-ruby-2-0-vm-thumb_0002.png?1352356076" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1272-rubyconf2012-implementation-details-of-ruby-2-0-vm">Koichi Sasada</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1273-rubyconf2012-service-oriented-architecture-at-square">Service Oriented Architecture at Square</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1273-rubyconf2012-service-oriented-architecture-at-square" class="noborder"><img alt="1273-rubyconf2012-service-oriented-architecture-at-square-thumb_0004" src="http://cdn.confreaks.com/system/videos/images/1273/thumb/1273-rubyconf2012-service-oriented-architecture-at-square-thumb_0004.png?1354075524" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1273-rubyconf2012-service-oriented-architecture-at-square">Chris Hunt</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1274-rubyconf2012-someone-is-wrong">Someone is Wrong</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1274-rubyconf2012-someone-is-wrong" class="noborder"><img alt="1274-rubyconf2012-someone-is-wrong-thumb_0003" src="http://cdn.confreaks.com/system/videos/images/1274/thumb/1274-rubyconf2012-someone-is-wrong-thumb_0003.png?1354122004" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1274-rubyconf2012-someone-is-wrong">Joseph Wilk</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1275-rubyconf2012-ruby-2-0-on-rails">Ruby 2.0 on Rails</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1275-rubyconf2012-ruby-2-0-on-rails" class="noborder"><img alt="1275-rubyconf2012-ruby-2-0-on-rails-thumb_0003" src="http://cdn.confreaks.com/system/videos/images/1275/thumb/1275-rubyconf2012-ruby-2-0-on-rails-thumb_0003.png?1352413969" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1275-rubyconf2012-ruby-2-0-on-rails">Akira Matsuda</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1276-rubyconf2012-ruby-monitoring-state-of-the-union">Ruby Monitoring State of the Union</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1276-rubyconf2012-ruby-monitoring-state-of-the-union" class="noborder"><img alt="1276-rubyconf2012-ruby-monitoring-state-of-the-union-thumb_0003" src="http://cdn.confreaks.com/system/videos/images/1276/thumb/1276-rubyconf2012-ruby-monitoring-state-of-the-union-thumb_0003.png?1352840026" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1276-rubyconf2012-ruby-monitoring-state-of-the-union">Joseph Ruscio</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1277-rubyconf2012-failure-for-fun-and-profit">Failure for Fun and Profit!</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1277-rubyconf2012-failure-for-fun-and-profit" class="noborder"><img alt="1277-rubyconf2012-failure-for-fun-and-profit-thumb_0002" src="http://cdn.confreaks.com/system/videos/images/1277/thumb/1277-rubyconf2012-failure-for-fun-and-profit-thumb_0002.png?1354553585" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1277-rubyconf2012-failure-for-fun-and-profit">Kerri Miller</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1278-rubyconf2012-toward-a-design-for-ruby">Toward a Design for Ruby</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1278-rubyconf2012-toward-a-design-for-ruby" class="noborder"><img alt="1278-rubyconf2012-toward-a-design-for-ruby-thumb_0001" src="http://cdn.confreaks.com/system/videos/images/1278/thumb/1278-rubyconf2012-toward-a-design-for-ruby-thumb_0001.png?1352414068" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1278-rubyconf2012-toward-a-design-for-ruby">Brian Ford</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1279-rubyconf2012-zero-downtime-deploys-made-easy">Zero Downtime Deploys Made Easy</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1279-rubyconf2012-zero-downtime-deploys-made-easy" class="noborder"><img alt="1279-rubyconf2012-zero-downtime-deploys-made-easy-thumb_0003" src="http://cdn.confreaks.com/system/videos/images/1279/thumb/1279-rubyconf2012-zero-downtime-deploys-made-easy-thumb_0003.png?1352494717" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1279-rubyconf2012-zero-downtime-deploys-made-easy">Matt Duncan</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1280-rubyconf2012-building-data-driven-products-with-ruby">Building Data Driven Products with Ruby</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1280-rubyconf2012-building-data-driven-products-with-ruby" class="noborder"><img alt="1280-rubyconf2012-building-data-driven-products-with-ruby-thumb_0002" src="http://cdn.confreaks.com/system/videos/images/1280/thumb/1280-rubyconf2012-building-data-driven-products-with-ruby-thumb_0002.png?1354389832" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1280-rubyconf2012-building-data-driven-products-with-ruby">Ryan Weald</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1281-rubyconf2012-why-jruby-works">Why JRuby Works</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1281-rubyconf2012-why-jruby-works" class="noborder"><img alt="1281-rubyconf2012-why-jruby-works-thumb_0002" src="http://cdn.confreaks.com/system/videos/images/1281/thumb/1281-rubyconf2012-why-jruby-works-thumb_0002.png?1352495267" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1281-rubyconf2012-why-jruby-works">Charles Nutter, Thomas Enebo</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1282-rubyconf2012-your-app-is-not-a-black-box">Your app is not a black box</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1282-rubyconf2012-your-app-is-not-a-black-box" class="noborder"><img alt="1282-rubyconf2012-your-app-is-not-a-black-box-thumb_0002" src="http://cdn.confreaks.com/system/videos/images/1282/thumb/1282-rubyconf2012-your-app-is-not-a-black-box-thumb_0002.png?1352628144" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1282-rubyconf2012-your-app-is-not-a-black-box">Josh Kalderimis</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1283-rubyconf2012-refactoring-from-good-to-great">Refactoring from Good to Great</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1283-rubyconf2012-refactoring-from-good-to-great" class="noborder"><img alt="1283-rubyconf2012-refactoring-from-good-to-great-thumb_0003" src="http://cdn.confreaks.com/system/videos/images/1283/thumb/1283-rubyconf2012-refactoring-from-good-to-great-thumb_0003.png?1354412832" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1283-rubyconf2012-refactoring-from-good-to-great">Ben Orenstein</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1286-rubyconf2012-dissecting-a-ruby-block">Dissecting a Ruby Block</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1286-rubyconf2012-dissecting-a-ruby-block" class="noborder"><img alt="1286-rubyconf2012-dissecting-a-ruby-block-thumb_0004" src="http://cdn.confreaks.com/system/videos/images/1286/thumb/1286-rubyconf2012-dissecting-a-ruby-block-thumb_0004.png?1354413083" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1286-rubyconf2012-dissecting-a-ruby-block">Pat Shaughnessy</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1284-rubyconf2012-tokaido-making-ruby-better-on-osx">Tokaido: Making Ruby Better on OSX</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1284-rubyconf2012-tokaido-making-ruby-better-on-osx" class="noborder"><img alt="1284-rubyconf2012-tokaido-making-ruby-better-on-osx-thumb_0003" src="http://cdn.confreaks.com/system/videos/images/1284/thumb/1284-rubyconf2012-tokaido-making-ruby-better-on-osx-thumb_0003.png?1352495107" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1284-rubyconf2012-tokaido-making-ruby-better-on-osx">Yehuda Katz</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1285-rubyconf2012-building-modular-scalable-web-apps-of-cors">Building modular, scalable web apps? Of CORS!</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1285-rubyconf2012-building-modular-scalable-web-apps-of-cors" class="noborder"><img alt="1285-rubyconf2012-building-modular-scalable-web-apps-of-cors-thumb_0001" src="http://cdn.confreaks.com/system/videos/images/1285/thumb/1285-rubyconf2012-building-modular-scalable-web-apps-of-cors-thumb_0001.png?1352628188" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1285-rubyconf2012-building-modular-scalable-web-apps-of-cors">Michael Bleigh</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1287-rubyconf2012-y-not-adventures-in-functional-programming">Y Not -- Adventures in Functional Programming</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1287-rubyconf2012-y-not-adventures-in-functional-programming" class="noborder"><img alt="1287-rubyconf2012-y-not-adventures-in-functional-programming-thumb_0004" src="http://cdn.confreaks.com/system/videos/images/1287/thumb/1287-rubyconf2012-y-not-adventures-in-functional-programming-thumb_0004.png?1352598230" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1287-rubyconf2012-y-not-adventures-in-functional-programming">Jim Weirich</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1289-rubyconf2012-grow-your-unix-beard-using-ruby">Grow Your Unix Beard Using Ruby</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1289-rubyconf2012-grow-your-unix-beard-using-ruby" class="noborder"><img alt="1289-rubyconf2012-grow-your-unix-beard-using-ruby-thumb_0002" src="http://cdn.confreaks.com/system/videos/images/1289/thumb/1289-rubyconf2012-grow-your-unix-beard-using-ruby-thumb_0002.png?1353225886" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1289-rubyconf2012-grow-your-unix-beard-using-ruby">Jesse Storimer</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1290-rubyconf2012-asynchronous-processing-for-fun-and-profit">Asynchronous Processing for Fun and Profit</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1290-rubyconf2012-asynchronous-processing-for-fun-and-profit" class="noborder"><img alt="1290-rubyconf2012-asynchronous-processing-for-fun-and-profit-thumb_0001" src="http://cdn.confreaks.com/system/videos/images/1290/thumb/1290-rubyconf2012-asynchronous-processing-for-fun-and-profit-thumb_0001.png?1353055313" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1290-rubyconf2012-asynchronous-processing-for-fun-and-profit">Mike Perham</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1291-rubyconf2012-real-time-salami">Real Time Salami</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1291-rubyconf2012-real-time-salami" class="noborder"><img alt="1291-rubyconf2012-real-time-salami-thumb_0002" src="http://cdn.confreaks.com/system/videos/images/1291/thumb/1291-rubyconf2012-real-time-salami-thumb_0002.png?1352501015" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1291-rubyconf2012-real-time-salami">Aaron Patterson</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1292-rubyconf2012-how-to-build-use-and-grow-internal-tools">How to build, use and grow internal tools</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1292-rubyconf2012-how-to-build-use-and-grow-internal-tools" class="noborder"><img alt="1292-rubyconf2012-how-to-build-use-and-grow-internal-tools-thumb_0001" src="http://cdn.confreaks.com/system/videos/images/1292/thumb/1292-rubyconf2012-how-to-build-use-and-grow-internal-tools-thumb_0001.png?1352844345" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1292-rubyconf2012-how-to-build-use-and-grow-internal-tools">Keavy McMinn</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1293-rubyconf2012-drb-vs-rabbitmq-showdown">DRb vs RabbitMQ Showdown</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1293-rubyconf2012-drb-vs-rabbitmq-showdown" class="noborder"><img alt="1293-rubyconf2012-drb-vs-eventmachine-showdown-thumb_0001" src="http://cdn.confreaks.com/system/videos/images/1293/thumb/1293-rubyconf2012-drb-vs-eventmachine-showdown-thumb_0001.png?1353055156" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1293-rubyconf2012-drb-vs-rabbitmq-showdown">Davy Stevenson</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1294-rubyconf2012-arduino-the-ruby-way">Arduino the Ruby way</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1294-rubyconf2012-arduino-the-ruby-way" class="noborder"><img alt="1294-rubyconf2012-arduino-the-ruby-way-thumb_0003" src="http://cdn.confreaks.com/system/videos/images/1294/thumb/1294-rubyconf2012-arduino-the-ruby-way-thumb_0003.png?1352503960" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1294-rubyconf2012-arduino-the-ruby-way">Austin Vance</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1295-rubyconf2012-change-your-tools-change-your-outcome-the-next-frontier-of-deployment">Change your tools, change your outcome - the next frontier of deployment</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1295-rubyconf2012-change-your-tools-change-your-outcome-the-next-frontier-of-deployment" class="noborder"><img alt="1295-rubyconf2012-change-your-tools-change-your-outcome-the-next-frontier-of-deployment-thumb_0003" src="http://cdn.confreaks.com/system/videos/images/1295/thumb/1295-rubyconf2012-change-your-tools-change-your-outcome-the-next-frontier-of-deployment-thumb_0003.png?1353266804" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1295-rubyconf2012-change-your-tools-change-your-outcome-the-next-frontier-of-deployment">Dr. Nic Williams</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1296-rubyconf2012-rails-is-a-follower-what-we-can-learn-from-druby-s-metaprogramming-magic">Rails Is A Follower: what we can learn from dRuby's metaprogramming magic</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1296-rubyconf2012-rails-is-a-follower-what-we-can-learn-from-druby-s-metaprogramming-magic" class="noborder"><img alt="1296-rubyconf2012-rails-is-a-follower-what-we-can-learn-from-druby-s-metaprogramming-magic-thumb_0000" src="http://cdn.confreaks.com/system/videos/images/1296/thumb/1296-rubyconf2012-rails-is-a-follower-what-we-can-learn-from-druby-s-metaprogramming-magic-thumb_0000.png?1352739357" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1296-rubyconf2012-rails-is-a-follower-what-we-can-learn-from-druby-s-metaprogramming-magic">Makoto Inoue, Masatoshi Seki</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1297-rubyconf2012-xiki-the-rubyfied-next-generation-shell-console">Xiki: the Rubyfied Next-Generation Shell Console</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1297-rubyconf2012-xiki-the-rubyfied-next-generation-shell-console" class="noborder"><img alt="1297-rubyconf2012-xiki-the-rubyfied-next-generation-shell-console-thumb_0001" src="http://cdn.confreaks.com/system/videos/images/1297/thumb/1297-rubyconf2012-xiki-the-rubyfied-next-generation-shell-console-thumb_0001.png?1352738788" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1297-rubyconf2012-xiki-the-rubyfied-next-generation-shell-console">Craig Muth</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1298-rubyconf2012-inside-rubymotion">Inside RubyMotion</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1298-rubyconf2012-inside-rubymotion" class="noborder"><img alt="1298-rubyconf2012-inside-rubymotion-thumb_0002" src="http://cdn.confreaks.com/system/videos/images/1298/thumb/1298-rubyconf2012-inside-rubymotion-thumb_0002.png?1353272346" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1298-rubyconf2012-inside-rubymotion">Rich Kilmer</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1301-rubyconf2012-there-and-back-again-or-how-i-set-out-to-benchmark-an-algorithm-and-ended-up-fixing-ruby">There and Back Again -or- How I Set out to Benchmark an Algorithm and Ended Up Fixing Ruby</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1301-rubyconf2012-there-and-back-again-or-how-i-set-out-to-benchmark-an-algorithm-and-ended-up-fixing-ruby" class="noborder"><img alt="1301-rubyconf2012-there-and-back-again-or-how-i-set-out-to-benchmark-an-algorithm-and-ended-up-fixing-ruby-thumb_0002" src="http://cdn.confreaks.com/system/videos/images/1301/thumb/1301-rubyconf2012-there-and-back-again-or-how-i-set-out-to-benchmark-an-algorithm-and-ended-up-fixing-ruby-thumb_0002.png?1352738410" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1301-rubyconf2012-there-and-back-again-or-how-i-set-out-to-benchmark-an-algorithm-and-ended-up-fixing-ruby">Joshua Ballanco</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1299-rubyconf2012-making-security-priority-zero">Making Security Priority Zero</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1299-rubyconf2012-making-security-priority-zero" class="noborder"><img alt="1299-rubyconf2012-making-security-priority-zero-thumb_0000" src="http://cdn.confreaks.com/system/videos/images/1299/thumb/1299-rubyconf2012-making-security-priority-zero-thumb_0000.png?1353056544" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1299-rubyconf2012-making-security-priority-zero">Rein Henrichs</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1302-rubyconf2012-the-celluloid-ecosystem">The Celluloid Ecosystem</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1302-rubyconf2012-the-celluloid-ecosystem" class="noborder"><img alt="1302-rubyconf2012-the-celluloid-ecosystem-thumb_0002" src="http://cdn.confreaks.com/system/videos/images/1302/thumb/1302-rubyconf2012-the-celluloid-ecosystem-thumb_0002.png?1352739920" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1302-rubyconf2012-the-celluloid-ecosystem">Tony Arcieri</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1303-rubyconf2012-rubymotion-for-faster-client-server-development">RubyMotion for Faster Client/Server Development</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1303-rubyconf2012-rubymotion-for-faster-client-server-development" class="noborder"><img alt="1303-rubyconf2012-rubymotion-for-faster-client-server-development-thumb_0001" src="http://cdn.confreaks.com/system/videos/images/1303/thumb/1303-rubyconf2012-rubymotion-for-faster-client-server-development-thumb_0001.png?1353272779" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1303-rubyconf2012-rubymotion-for-faster-client-server-development">Tammer Saleh, Randall Thomas</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1304-rubyconf2012-the-insufficiency-of-good-design">The Insufficiency of Good Design</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1304-rubyconf2012-the-insufficiency-of-good-design" class="noborder"><img alt="1304-rubyconf2012-the-insufficiency-of-good-design-thumb_0003" src="http://cdn.confreaks.com/system/videos/images/1304/thumb/1304-rubyconf2012-the-insufficiency-of-good-design-thumb_0003.png?1354364448" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1304-rubyconf2012-the-insufficiency-of-good-design">Sarah Mei</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1305-rubyconf2012-game-development-and-ruby">Game Development and Ruby</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1305-rubyconf2012-game-development-and-ruby" class="noborder"><img alt="1305-rubyconf2012-game-development-and-ruby-thumb_0003" src="http://cdn.confreaks.com/system/videos/images/1305/thumb/1305-rubyconf2012-game-development-and-ruby-thumb_0003.png?1353277628" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1305-rubyconf2012-game-development-and-ruby">Andrew Nordman</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1306-rubyconf2012-testing-should-be-fun">Testing Should Be Fun</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1306-rubyconf2012-testing-should-be-fun" class="noborder"><img alt="1306-rubyconf2012-testing-should-be-fun-thumb_0004" src="http://cdn.confreaks.com/system/videos/images/1306/thumb/1306-rubyconf2012-testing-should-be-fun-thumb_0004.png?1354134503" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1306-rubyconf2012-testing-should-be-fun">Noel Rappin</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1308-rubyconf2012-mruby-meets-ios-and-rtos">mruby meets iOS and RTOS!</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1308-rubyconf2012-mruby-meets-ios-and-rtos" class="noborder"><img alt="1308-rubyconf2012-mruby-meets-ios-and-rtos-thumb_0000" src="http://cdn.confreaks.com/system/videos/images/1308/thumb/1308-rubyconf2012-mruby-meets-ios-and-rtos-thumb_0000.png?1353788470" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1308-rubyconf2012-mruby-meets-ios-and-rtos">Masayoshi Takahashi, Yurie Yamane, Yuichiro MASUI</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1309-rubyconf2012-interface-testing-creating-a-diablo-3-bot-using-jruby-and-sikuli-ui">Interface testing: Creating a Diablo 3 bot using jRuby and Sikuli UI</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1309-rubyconf2012-interface-testing-creating-a-diablo-3-bot-using-jruby-and-sikuli-ui" class="noborder"><img alt="1309-rubyconf2012-interface-testing-creating-a-diablo-3-bot-using-jruby-and-sikuli-ui-thumb_0000" src="http://cdn.confreaks.com/system/videos/images/1309/thumb/1309-rubyconf2012-interface-testing-creating-a-diablo-3-bot-using-jruby-and-sikuli-ui-thumb_0000.png?1353276984" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1309-rubyconf2012-interface-testing-creating-a-diablo-3-bot-using-jruby-and-sikuli-ui">Rodrigo Franco</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1310-rubyconf2012-could-a-machine-ever-write-tests-for-our-code-new-verification-techniques-for-ruby">Could a Machine Ever Write Tests For Our Code? New Verification Techniques For Ruby</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1310-rubyconf2012-could-a-machine-ever-write-tests-for-our-code-new-verification-techniques-for-ruby" class="noborder"><img alt="1310-rubyconf2012-could-a-machine-ever-write-tests-for-our-code-new-verification-techniques-for-ruby-thumb_0001" src="http://cdn.confreaks.com/system/videos/images/1310/thumb/1310-rubyconf2012-could-a-machine-ever-write-tests-for-our-code-new-verification-techniques-for-ruby-thumb_0001.png?1354133874" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1310-rubyconf2012-could-a-machine-ever-write-tests-for-our-code-new-verification-techniques-for-ruby">Loren Segal</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1311-rubyconf2012-krypt-the-next-level-of-ruby-cryptography">krypt - The next level of Ruby cryptography</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1311-rubyconf2012-krypt-the-next-level-of-ruby-cryptography" class="noborder"><img alt="1311-rubyconf2012-krypt-the-next-level-of-ruby-cryptography-thumb_0002" src="http://cdn.confreaks.com/system/videos/images/1311/thumb/1311-rubyconf2012-krypt-the-next-level-of-ruby-cryptography-thumb_0002.png?1353809934" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1311-rubyconf2012-krypt-the-next-level-of-ruby-cryptography">Martin Boßlet</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1312-rubyconf2012-simulating-the-world-with-ruby">Simulating the world with Ruby</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1312-rubyconf2012-simulating-the-world-with-ruby" class="noborder"><img alt="1312-rubyconf2012-simulating-the-world-with-ruby-thumb_0000" src="http://cdn.confreaks.com/system/videos/images/1312/thumb/1312-rubyconf2012-simulating-the-world-with-ruby-thumb_0000.png?1353278308" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1312-rubyconf2012-simulating-the-world-with-ruby">Bryan Liles</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1314-rubyconf2012-boundaries">Boundaries</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1314-rubyconf2012-boundaries" class="noborder"><img alt="1314-rubyconf2012-boundaries-thumb_0002" src="http://cdn.confreaks.com/system/videos/images/1314/thumb/1314-rubyconf2012-boundaries-thumb_0002.png?1353873671" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1314-rubyconf2012-boundaries">Gary Bernhardt</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1315-rubyconf2012-thinking-in-objects">Thinking in Objects</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1315-rubyconf2012-thinking-in-objects" class="noborder"><img alt="1315-rubyconf2012-thinking-in-objects-thumb_0003" src="http://cdn.confreaks.com/system/videos/images/1315/thumb/1315-rubyconf2012-thinking-in-objects-thumb_0003.png?1354246141" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1315-rubyconf2012-thinking-in-objects">Josh Susser</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1316-rubyconf2012-machine-learning-for-fun-and-profit-the-story-of-how-my-customer-wrote-my-code">Machine learning for fun and profit: the story of how my customer wrote my code</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1316-rubyconf2012-machine-learning-for-fun-and-profit-the-story-of-how-my-customer-wrote-my-code" class="noborder"><img alt="1316-rubyconf2012-machine-learning-for-fun-and-profit-the-story-of-how-my-customer-wrote-my-code-thumb_0000" src="http://cdn.confreaks.com/system/videos/images/1316/thumb/1316-rubyconf2012-machine-learning-for-fun-and-profit-the-story-of-how-my-customer-wrote-my-code-thumb_0000.png?1354146585" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1316-rubyconf2012-machine-learning-for-fun-and-profit-the-story-of-how-my-customer-wrote-my-code">Chris Nelson</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1319-rubyconf2012-rapid-programming-language-prototypes-with-ruby-racc">Rapid Programming Language Prototypes with Ruby & Racc</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1319-rubyconf2012-rapid-programming-language-prototypes-with-ruby-racc" class="noborder"><img alt="1319-rubyconf2012-rapid-programming-language-prototypes-with-ruby-racc-thumb_0001" src="http://cdn.confreaks.com/system/videos/images/1319/thumb/1319-rubyconf2012-rapid-programming-language-prototypes-with-ruby-racc-thumb_0001.png?1353873830" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1319-rubyconf2012-rapid-programming-language-prototypes-with-ruby-racc">Tom Lee</a>
+</div>
+</div>
+</div>
+</div>
+<div class='event-box'>
+<div class='event-box-outer tiny'>
+<div class='event-box-inner'>
+<div class='event-title'>
+<a href="/videos/1321-rubyconf2012-an-intimate-chat-with-matz">An Intimate Chat with Matz</a>
+</div>
+<div class='event-image'>
+<a href="/videos/1321-rubyconf2012-an-intimate-chat-with-matz" class="noborder"><img alt="1321-rubyconf2012-an-intimate-chat-with-matz-thumb_0000" src="http://cdn.confreaks.com/system/videos/images/1321/thumb/1321-rubyconf2012-an-intimate-chat-with-matz-thumb_0000.png?1354122921" /></a>
+</div>
+<div class='event-date'>
+<a href="/videos/1321-rubyconf2012-an-intimate-chat-with-matz">Yukihiro 'Matz' Matsumoto</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class='clear'></div>
+
+
+        <p class="center">
+          <br/>
+<!-- Flattr Button -->
+<a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://confreaks.com"></a>
+<noscript><a href="http://flattr.com/thing/77786/Confreaks-video-recording-services" target="_blank">
+<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
+<!-- END Flattr Button -->
+<!-- Twitter Widget -->
+<div id="twitter-widget">
+<a class="twitter-timeline" href="https://twitter.com/search?q=confreaks" data-widget-id="250844574405234688">Tweets about "confreaks"</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+<!-- END Twitter Widget -->
+        </p>
+    </div>
+    <div class="clear">
+    </div>
+    <div id='footer'>
+<ul>
+<li class='first'>
+<a href="/privacy-policy">Privacy Policy</a>
+</li>
+<li>
+<a href="/terms-of-service">Terms of Service</a>
+</li>
+<li>
+<a href="/contact-us">Contact Us</a>
+</li>
+<li>
+<a href="/about-us">About Us</a>
+</li>
+<li>
+<a href="/services">Services</a>
+</li>
+</ul>
+<ul>
+<li class='first'>
+<a href="http://bluebox.net" target="_blank"><img alt="Bluebox_logo_fixed" src="http://cdn.confreaks.com/images/bluebox_logo_fixed.png?1363745627" /></a>
+<br />
+<a href="http://bluebox.net" target="_blank">Big Apps hosting provided by Blue Box</a>
+</li>
+</ul>
+</div>
+<div class='center'>
+<div class='small'>
+Version:
+1.0 (482) by Coby Randquist on 2013-03-19
+</div>
+</div>
+<script type="text/javascript" src="/javascripts/si-clear-children.js"></script>
+<script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+  try {
+  var pageTracker = _gat._getTracker("UA-9089544-7");
+  pageTracker._trackPageview();
+  } catch(err) {
+  }
+</script>
+
+<!-- getsatisifaction feedback widget -->
+<script type="text/javascript" charset="utf-8">
+var is_ssl = ("https:" == document.location.protocol);
+var asset_host = is_ssl ? "https://s3.amazonaws.com/getsatisfaction.com/" : "http://s3.amazonaws.com/getsatisfaction.com/";
+document.write(unescape("%3Cscript src='" + asset_host + "javascripts/feedback-v2.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript" charset="utf-8">
+var feedback_widget_options = {};
+feedback_widget_options.display = "overlay";
+feedback_widget_options.company = "confreaks";
+feedback_widget_options.placement = "right";
+feedback_widget_options.color = "#222";
+feedback_widget_options.style = "idea";
+var feedback_widget = new GSFN.feedback_widget(feedback_widget_options);
+</script>
+<!-- END getsatisfaction feedback widget -->
+
+    <script type="text/javascript">
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '4fd4d1f4f5a1f57f93000044');
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+
+  <script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";e.async=true;e.src="https://d1ros97qkrwjf5.cloudfront.net/42/eum/rum.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-3.newrelic.com","17318a6b54",1082624,"cFlZRUMMWl5TEBtODVdTWEIeEF5dQQ==",0,964,new Date().getTime(),"","","","",""])</script></body>
+</html>
